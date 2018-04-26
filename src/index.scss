@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
+    border-top: 5px solid #bd2130;
 }
 .Header{
     font-size: 35px;
@@ -43,10 +44,18 @@ body{
 }
 
 .modal-content{
-    background-color: #e8e5e5;
+    border-top: 6px solid #bd2130 !important;
+    background-color: #e2e2e2 !important;
     text-align: center;
     .modal-body {
-
+        p{
+            font-size: 15px;
+            padding: 10px;
+        }
+        h1{
+            font-size: 25px;
+    padding: 20px 0 20px 0;
+        }
         input{
             width: 100%;
             display:block;
@@ -62,4 +71,10 @@ body{
             font-size: 20px;
         }
     }
+}
+
+.footer{
+    background-color: #131a22;
+    padding: 30px 0;
+    margin: 30px 0 0;
 }

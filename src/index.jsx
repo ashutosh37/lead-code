@@ -51,7 +51,12 @@ class MainContainer extends React.Component {
            </Row>
           </Col>
         </Row>
-
+        <Row className="footer">
+           <Col md="6" sm="12">
+           </Col>
+           <Col md="6" sm="12">
+           </Col>
+        </Row>
       </Container>
     );
   }

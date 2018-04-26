@@ -13,11 +13,11 @@ loaders.push({
 loaders.push({
     test: /\.png/,
     exclude: /(node_modules|bower_components)/,
-    loader: "file-loader?limit=10000&mimetype=image/png",
-    options:{
-       name : '[name].[ext]', 
-       publicPath : '/_catalog/masterpage/vsba/images/'
-    }
+    loader: "file-loader?limit=10000&mimetype=image/png"
+    // options:{
+    //    name : '[name].[ext]', 
+    //    publicPath : '/_catalog/masterpage/vsba/images/'
+    // }
   });
 
 module.exports = {
